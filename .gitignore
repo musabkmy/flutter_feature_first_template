@@ -1,0 +1,69 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+pubspec.lock
+
+# IDEs
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Mac/Windows/Linux system files
+.DS_Store
+Thumbs.db
+
+# Android
+**/android/local.properties
+**/android/app/google-services.json
+**/android/key.properties
+
+# iOS
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Firebase config (if any)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Environment / secrets
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+*.lock
+
+# Temp
+.temp/
+*.tmp
+
+# Keep pubspec.yaml but ignore lock file
+pubspec.lock
+
+# Don’t include app-specific config
+android/
+ios/
+web/
+macos/
+windows/
+linux/
