@@ -9,7 +9,7 @@ A new Flutter project.
 2. create a project
 
     ```dash
-        flutter create --project-name your_app_name .
+        flutter create --project-name your_project_name .
     ```
 
 3. generate localizations files
